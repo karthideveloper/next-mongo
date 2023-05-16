@@ -1,7 +1,7 @@
 import { Schema,models,model } from "mongoose";
 
 const userSchema=new Schema({
-    name:String
+    name:String,
 })
 
 const Users=models.user||model("user",userSchema)
