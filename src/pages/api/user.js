@@ -18,6 +18,7 @@ const handler=async(req, res) =>{
 
   switch (method) {
     case "GET":
+      console.log('s')
       // Fetch all users
       const users = await getUsers();
       res.status(200).json(users);
