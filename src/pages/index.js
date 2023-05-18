@@ -1,8 +1,7 @@
-// import handler from './api/user'
 
 export default function Home() {
-
-  const req={method:"GET"},res='';
-  // handler(req,res);
-  return <h1>hi</h1>;
+  console.log("hi")
+  return (
+   <h1>hi</h1>
+  )
 }

@@ -1,4 +1,4 @@
-import connectMongo from '../../database/conn'
+import connectMongo from '../../app/database/conn'
 
 const handler=(req,res)=>{
     connectMongo();
